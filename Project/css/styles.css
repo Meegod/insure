@@ -1,0 +1,279 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-family:"Karla", sans-serif;
+    }
+  /* img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  } */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /*header*/
+  header{
+    display: flex;
+    justify-content: space-around;
+    height: 20px;
+    margin:30px 0px;
+    font-size: 18px;
+
+}
+.mobile{
+  display: none;
+}
+
+.nav__link{
+    display: flex;
+    align-content: center;
+}
+.nav__plans{
+     border:2px solid hsl(270, 9%, 17%);
+     color: hsl(270, 9%, 17%);
+     font-weight: bold;
+}
+ li{
+    list-style: none;
+ }
+ a{
+    text-decoration: none;
+ }
+ li a{
+    margin:20px;
+ }
+
+ /* .content__wrapper{
+    margin:0 auto;
+ } */
+ .section-content{
+    background-color:#2D2641;
+}
+.main__content{
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    height: 80vh;
+    margin:0px auto;
+    max-width: 960px;
+    align-items: center;
+    justify-content: space-around;  
+    gap:20px;
+    color:#ffff;
+    padding: 1em;
+
+}
+
+.content-left{
+  max-width: 580px;
+}
+
+.content-left h1{
+  font-family: "DM Serif Display", serif;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  overflow-wrap: break-word;
+
+}
+.content-left p{
+  margin-top: 20px;
+  line-height: 1.7em;
+  }
+.cta{
+  background-color:#2D2641;
+  /* display: inline-block; */
+  padding:10px 20px;
+  margin-top:15px;
+  color:#ffff;
+  width: 200px;
+  font-size:1.2em;
+  border-color: white;
+  cursor: pointer;
+  }
+.img_responsive{
+  margin-top: 110px;
+  display: block;
+}
+
+section{
+  margin-top: 100px;
+  padding: 20px 20px;
+}
+section h1{
+  font-family:"DM Serif Display", serif;
+  font-size: 3.5rem;
+  padding: 0.9em 0px;
+
+}
+.different{
+  margin:0 auto;
+  max-width:1000px;
+}
+.different__wrapper{
+  display:flex;
+  justify-content:space-between;
+
+}
+.different__wrappercontent{
+  padding: 10px 0px;
+}
+.para{
+  font-family:"Karla", sans-serif;
+  color: #837D88;
+}
+.work{
+  background-color:#2D2641;
+  margin:0px auto;
+  max-width: 960px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.work__pro{
+   position: relative;
+   margin-top:100px;
+   margin-bottom: 100px;
+   padding:50px 0px;
+
+}
+
+.cta__BTN{
+color: #fff;
+background-color:#2D2641;
+border-color: #f5f5f5;
+cursor: pointer;
+display: inline-block;
+padding:5px 20px;
+width: 200px;
+font-size:1.2em; 
+margin-top: 40px;
+
+}
+
+.text__pro{
+  font-size:2.8em;
+  color:#fff;
+  font-family:"DM Serif Display", serif;
+  line-height: 3.5rem;
+  overflow-wrap: break-word;
+}
+.footer__bottom{
+   /* margin-top:900px;  */
+  background-color: #FAFAFA;
+  margin-top: auto; /* Push the footer to the bottom */
+
+  
+}
+footer{
+  margin-top: auto; /* Push the footer to the bottom */
+
+}
+.text-center{
+  text-align: center;
+}
+.flex__footer{
+  display:flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin:80px auto;
+  max-width: 960px;
+  position: relative;
+  top:50px;
+}
+.flex__horizontal{
+  border-bottom: 2px solid #DADADA; 
+  margin:20px auto;
+  max-width: 960px;
+  position: relative;
+  bottom: 40px;
+  top:3px;
+
+}
+
+.footer__link{
+  display: flex;
+  gap:10px;
+}
+
+.section__flex{
+  display: flex;
+  justify-content: space-around;
+  /* gap:2em; */
+  margin-bottom:90px;
+}
+
+.footer__wrapper{
+  position: relative;
+  top: 6em;
+}
+
+.Pb-4{
+  padding-bottom:2em;
+}
+.cl-gray{
+  color:#837D88;
+}
+
+/*individual signing*/
+.our-company{
+  position: relative;
+  right:10px;
+}
+.help-me{
+  position:relative;
+  right: 32px;
+}
+.contact-me{
+  position: relative;
+  right:10px;
+}
+
+.others{
+  position: relative;
+  right: 13px;
+}
+
+.footer__links a{
+  /* margin:50px; */
+  margin: 20px 0;
+  color: black;
+  font-weight: bold;
+  display: block;
+}
+a .nav-link{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
